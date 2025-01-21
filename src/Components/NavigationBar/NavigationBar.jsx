@@ -8,10 +8,13 @@ import { Link } from "react-router";
 import './navigationBar.css'
 import airplaneLogo from '../../assets/icon/airplane.svg'
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+import Button from 'react-bootstrap/Button';
+
+
 function NavigationBar() {
   return (
-    <Navbar expand="lg" className="position-absolute w-100 z-2">
-      <Container>
+    <Navbar expand="lg" className="position-absolute nav w-100 z-2">
+      <Container fluid className="container-fluid">
         <NavbarBrand className="text-light">
           <Link to={'/'} className="d-flex text-decoration-none text-light "  >
           <img src={airplaneLogo} alt="" className="me-2"  />
@@ -26,6 +29,11 @@ function NavigationBar() {
     <Nav.Link href="/cityBreaks" className="text-light">CityBreaks</Nav.Link>
     <Nav.Link href="/destinatios" className="text-light">Destinatios</Nav.Link>
     </Nav>
+    <Button variant="light">
+      <Link to={'/'} className=" text-decoration-none 
+      text-capitalize text-dark text-nowrap">Sign in</Link>
+    </Button>
+
 
 
 </NavbarCollapse>

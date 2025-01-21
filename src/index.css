@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins&family=Racing+Sans+One&display=swap');
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div{
+    margin: 0;
+    font-family: "Inter", serif;
+
+}
+code{
+    font-family: "Inter", serif;
+
+}

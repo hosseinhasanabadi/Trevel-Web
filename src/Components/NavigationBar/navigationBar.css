@@ -1,3 +1,21 @@
-.bi{
-  justify-content: center;
+.nav{
+  padding-left: 20px ;
+}
+.navbar{
+  padding-left:18px !important;
+  padding-right:18px !important;
+  background-color: var(--primay-bg-color);
+
+}
+.navbar .navbar-toggler{
+  border-color: white;
+}
+.navbar .navbar-toggler-icon,
+.navbar .navbar-brand img{
+  filter: invert();
+
+}
+.navbar .navbar-brand img{
+  transform: rotate(45deg);
+  width: 1.5rem;
 }
