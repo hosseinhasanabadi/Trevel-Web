@@ -1,0 +1,8 @@
+#green-btn{
+    background-color: var(--primay-color);
+    border-color: var(--primay-color);
+}
+#green-btn:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}

@@ -1,0 +1,28 @@
+.item1{
+    
+
+    background-image: linear-gradient(to right,rgb(0,0,0,0.50),
+     rgb(0,0,0,0.40)) ,url(../../assets/img/header1.jpg);
+}
+.item2{
+   
+
+    background-image: linear-gradient(to right,rgb(0,0,0,0.60),
+    rgb(0,0,0,0.30)),url(../../assets/img/header2.jpg);
+ 
+
+}
+.item3{
+
+
+    background-image:linear-gradient(to right,rgb(0,0,0,0.20),
+    rgb(0,0,0,0.50)), url(../../assets/img/header3.jpg);
+}
+.item1,
+.item2,
+.item3{
+    background-size: cover;
+    background-position: center;
+    
+}
+  

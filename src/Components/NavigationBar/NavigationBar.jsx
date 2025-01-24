@@ -13,7 +13,7 @@ import Button from 'react-bootstrap/Button';
 
 function NavigationBar() {
   return (
-    <Navbar expand="lg" className="position-absolute nav w-100 z-2">
+    <Navbar expand="lg" className="position-absolute nav w-100 z-1">
       <Container fluid className="container-fluid">
         <NavbarBrand className="text-light">
           <Link to={'/'} className="d-flex text-decoration-none text-light "  >
