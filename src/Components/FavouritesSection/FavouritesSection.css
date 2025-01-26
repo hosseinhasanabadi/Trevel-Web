@@ -1,0 +1,20 @@
+.favourites-section .spa-div{
+    background-image: url(../../assets/img/spa.jpg);
+}
+.favourites-section .pool-div{
+    background-image: url(../../assets/img/pool.jpg);
+}
+.favourites-section .pet-frindly-div{
+    background-image: url(../../assets/img/pet.jpg);
+}
+.favourites-section .all-inclosive-div{
+    background-image: url(../../assets/img/inclosive.jpg);
+}
+.favourites-section .all-inclosive-div,
+.favourites-section .pet-frindly-div,
+.favourites-section .pool-div,
+.favourites-section .spa-div{
+    background-position:  center;
+    background-size: cover;
+    height: 500px;
+}
