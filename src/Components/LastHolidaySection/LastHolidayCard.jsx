@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-import './LastHolidayCard.css'
-function LastHolidayCard(props) {
+function lastHolidayCard(props) {
   return (
     <div className='col-lg-4'>
         <Card className='shadow h-100 overflow-hidden'>
@@ -21,4 +20,4 @@ function LastHolidayCard(props) {
   )
 }
 
-export default LastHolidayCard;
+export default lastHolidayCard;

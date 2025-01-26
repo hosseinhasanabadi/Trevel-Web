@@ -2,7 +2,7 @@ import React from "react";
 import "./lastHolidaySection.css";
 import Container from "react-bootstrap/Container";
 import LastHolidayItem from "../../assets/lastHolidayItem";
-import LastHolidayCard from "./LastHolidayCard";
+import LastHolidayCard from "./lastHolidayCard";
 function LastHolidaySection() {
   return (
     <div className="last-holiday-section ">
