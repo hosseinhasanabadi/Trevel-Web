@@ -6,6 +6,7 @@ import LastHolidaySection from "../../Components/LastHolidaySection/LastHolidayS
 import RecommendedSection from "../../Components/RecommendedSection/RecommendedSection";
 import HalidayPlanSection from "../../Components/HalidayPlanSection/HalidayPlanSection";
 import FavouritesSection from "../../Components/FavouritesSection/FavouritesSection";
+import RecentHolidays from "../../Components/RecentHolidays/RecentHolidays";
 function Home() {
   return (
     <div className="home-page">
@@ -17,6 +18,7 @@ function Home() {
       </div>
       <HalidayPlanSection itemHalidayPlanSectionTitle='Plan your holiday'/>
    <FavouritesSection/>
+   <RecentHolidays/>
     </div>
   );
 }
